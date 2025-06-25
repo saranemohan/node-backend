@@ -1,4 +1,4 @@
-import AppData from "../models/AppData.js";
+import AppData from "../models/AppData.model.js";
 
 class AppRepository {
     /**
