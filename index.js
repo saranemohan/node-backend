@@ -43,4 +43,5 @@ app.use((err, req, res, next) => {
 /**
  * Start server
  */
+export default app
 startServer(app);
