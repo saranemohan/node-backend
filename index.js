@@ -1,10 +1,10 @@
 import express from 'express';
-import startServer from './config/app.config.js';
-import connectDB from './config/db.config.js';
-import logAllRequests from './middleware/request-logger.js';
-import router from './router/auth.route.js';
-import logger from './utils/logger.js';
-import corsConfig from './config/cors.config.js';
+import startServer from './src/config/app.config.js';
+import connectDB from './src/config/db.config.js';
+import logAllRequests from './src/middleware/request-logger.js';
+import router from './src/router/auth.route.js';
+import logger from './src/utils/logger.js';
+import corsConfig from './src/config/cors.config.js';
 
 
 // Define Express App
